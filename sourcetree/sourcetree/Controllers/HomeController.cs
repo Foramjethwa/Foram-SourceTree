@@ -11,6 +11,8 @@ namespace sourcetree.Controllers
     {
         public ActionResult Index()
         {
+            ViewData["Message"] = "";
+
             ViewData["Message"] = "Welcome to ASP.NET MVC333!";
 
             return View();
